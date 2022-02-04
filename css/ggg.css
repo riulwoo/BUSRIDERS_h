@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color : #d8e7e3;
+	padding-top : 5rem;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 500px;
+	height: 230px;
+	background-color: #2AB394;
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+form select {
+	width: 300px;
+	height: 35px;
+	border: 1px solid #adadad;
+	margin-bottom: 1rem;
+	text-align-last: center;
+	text-align: center;
+	-ms-text-align-last: center;
+	-moz-text-align-last: center;
+	-webkit-appearance: none; /* 네이티브 외형 감추기 */
+	-moz-appearance: none;
+	appearance: none;
+}
+
+form .submit {
+	background-color: #7D78B1;
+	border: none;
+	border-radius: 10px;
+	color: white; width : 300px;
+	height: 35px;
+	width: 300px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	align-items: center;
+}

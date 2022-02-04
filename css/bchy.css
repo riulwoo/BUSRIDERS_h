@@ -1,0 +1,90 @@
+body {
+	background-color:#d8e7e3;
+	
+}
+
+.container {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 75px;
+	padding: 1rem;
+	color: white;
+	background: #2AB394;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.head {
+	background-color: #2AB394;
+	color: white;
+	font-size: 40px;
+	border: 0px;
+}
+
+
+.btn button {
+color:white;
+width:700px;
+height:60px;
+text-align:center;
+display:inline-block;
+font-size:16px;
+margin:4px 2px;
+border-radius:7px;
+}
+.a button {background-color:#C35F5F;
+		   border:1px solid #B93C3C;
+		   margin : 5px;
+}
+.b button {background-color:#3296D7;
+		   border:1px solid #1E82CD;
+		   margin : 5px;
+		   }
+				   
+.div-style {
+width:800px;
+height:60px;
+text-align:center;
+background-color:#8E83A9;
+color:white;
+font:bold 20px Arial;
+border-radius:10px;
+margin:4px 2px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+
+
+@media screen and (min-width:1200px) {
+	iframe{
+	margin : 5px;
+ 	width : "900wh";
+ 	height : "600";
+	}
+}
+
+.rect {
+	display: flex;
+	justify-content: center;
+}
+
+
+.btnflex{
+	display: flex;
+	justify-content: center;
+}
